@@ -1,0 +1,92 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  font-family: sans-serif;
+}
+
+:root{
+  --main-font: 'Lato', sans-serif;
+  --light-blue: #b4d0e7;
+  --sky-blue: #0093ce;
+  --blue: #0061ff;
+  --dark-blue: #0d2481;
+  --green: #a2d39b;
+  --light-green: #d0e9cd;
+  --red: #ff1c1c;
+  --dark-red: #d5001f;
+  --burgundi: #61082b;
+  --yellow: #ffd830;
+  --grey: #999999;
+}
+
+
+/* UTILITY */
+
+.d-flex{
+  display: flex;
+}
+
+.flex-wrap{
+  flex-wrap: wrap;
+}
+
+.justify-content-center{
+  justify-content: center;
+}
+
+.align-center{
+  align-items: center;
+}
+
+.justify-content-between{
+  justify-content: space-between;
+}
+
+.justify-align-center{
+  align-items: center;
+  justify-content: center;  
+}
+
+.debug{
+  min-height: 200px;
+  border: 1px solid black;
+  background-color: rgba (255, 0, 0, .2);
+}
+
+/* NAV */
+
+/* HEADER */
+header{
+  background-color: var(--light-blue);
+}
+
+.header-container{
+  max-width: 1200px;
+  width: 80%;
+  margin: auto;
+  position: relative;
+}
+
+.right-header{
+ position: absolute;
+ bottom: -10px;
+ display: inline-block;
+ width: 60%;
+}
+
+.left-header{
+ display: inline-block;
+ width: 40%;
+}
+
+/* MAIN */
+
+.main-container{
+  max-width: 1000px;
+  width: 70%;
+  margin: auto;
+}
