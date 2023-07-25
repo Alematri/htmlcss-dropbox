@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  text-decoration: none;
 }
 
 body{
@@ -14,8 +15,7 @@ body{
   --sky-blue: #0093ce;
   --blue: #0061ff;
   --dark-blue: #0d2481;
-  --green: #a2d39b;
-  --light-green: #d0e9cd;
+  --green: #a2d39b;                              
   --red: #ff1c1c;
   --dark-red: #d5001f;
   --burgundi: #61082b;
@@ -58,6 +58,28 @@ body{
 }
 
 /* NAV */
+
+nav{
+  padding: 20px 20px;
+}
+
+nav .right-nav a{
+  margin-left: 40px;
+  color: black;
+}
+
+nav .left-nav a, img{
+  margin-right: 40px;
+  color: black;
+}
+
+nav .right-nav a:last-child{
+  padding: 10px 18px;
+  background-color: var(--blue);
+  color: white;
+}
+
+
 
 /* HEADER */
 header{
