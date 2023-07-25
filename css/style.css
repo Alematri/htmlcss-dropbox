@@ -34,6 +34,10 @@ body{
   flex-wrap: wrap;
 }
 
+.flex-nowrap{
+  flex-wrap: nowrap;
+}
+
 .justify-content-center{
   justify-content: center;
 }
@@ -61,6 +65,10 @@ body{
 
 nav{
   padding: 20px 20px;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background-color: white;
 }
 
 nav .right-nav a{
@@ -83,11 +91,12 @@ nav .right-nav a:last-child{
 
 /* HEADER */
 header{
+  margin-top: 60px;
   background-color: var(--light-blue);
 }
 
 .header-container{
-  max-width: 1200px;
+  max-width: 1000px;
   width: 80%;
   margin: auto;
   position: relative;
