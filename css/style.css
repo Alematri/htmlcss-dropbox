@@ -70,6 +70,7 @@ nav{
   width: 100%;
   background-color: white;
   font-size: .9rem;
+  z-index: 999;
 }
 
 nav .right-nav a{
@@ -101,7 +102,7 @@ header h1{
 }
 
 .header-container{
-  max-width: 1000px;
+  max-width: 1200px;
   width: 80%;
   margin: auto;
 }
@@ -152,5 +153,67 @@ header .left-header .fa-arrow-down{
 .main-container{
   max-width: 1000px;
   width: 70%;
-  margin: auto;
+  margin: 150px auto;
+}
+
+h2{
+  font-size: 2.5rem;
+  margin-bottom: 50px;
+  font-weight: 800;
+}
+
+.plan-offerts .check-box .fa-solid{
+  color: var(--blue);
+}
+
+.plan-offerts .check-box .fa-regular{
+  color: var(--grey)
+}
+
+.plan-offerts .check-box span{
+  margin-right: 50px;
+}
+
+      /* TABS */
+
+.top-tabs{
+  margin-top: 70px;
+}
+
+.tab-left, .tab-middle, .tab-right{
+  border: 1px solid var(--grey);
+  width: calc(100% - 700px);
+  flex-wrap: wrap;
+}
+
+.tab-title{
+  border-bottom: 1px solid var(--grey);
+  text-align: center;
+  padding: 10px 0;
+}
+
+.plan-offerts .undertitle-tab{
+  padding: 30px;
+}
+
+.plan-offerts h3{
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.plan-offerts .price{
+  font-weight: 800;
+  font-size: 0.8rem;
+  margin: 20px 0;
+}
+
+.plan-offerts .date{
+  font-size: 0.8rem;
+  color: var(--grey);
+  margin-bottom: 60px;
+}
+
+.plan-offerts .undertitle-tab span{
+  display: block;
+  margin-bottom: 15px;
 }
