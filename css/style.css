@@ -282,3 +282,41 @@ h2{
   position: relative;
   bottom: 90px;
 }
+
+  /* PARTNER */
+
+.partner{
+  margin-top: 140px;
+}
+
+.partner .left-img{
+  width: 60%;
+}
+
+.partner .left-img #imgpartner{
+  width: 100%;
+}
+
+.partner .right-text{
+  padding: 40px 40px 0px 40px;
+  width: 40%;
+}
+
+.partner .right-text h3{
+  font-size: 1.5rem;
+  font-weight: 800;
+  margin-bottom: 20px;
+}
+
+.partner .right-text p{
+  margin-bottom: 60px;
+}
+
+.partner .right-text #find-partner{
+  background-color: white;
+  color: black;
+  border: 1px solid black;
+  margin-top: 50px;
+
+}
+
