@@ -222,12 +222,12 @@ h2{
   margin-bottom: 15px;
 }
 
-.plan-offerts .undertitle-tab .button{
-  margin-top: 75px;
-}
-
 .plan-offerts .undertitle-tab .buynow{
   margin: 35px 0 35px 0;
+}
+
+.plan-offerts .undertitle-tab .buynow a{
+  text-decoration: underline;
 }
 
 .plan-offerts .undertitle-tab .underline{
@@ -251,11 +251,20 @@ h2{
   color: #0061ff;
 }
 
-.plan-offerts .button{
+.plan-offerts .top-tabs .button{
   display: flex;
   justify-content: center;
   width: 100%;
+  margin-top: 75px;
+  background-color: #0061ff;
 }
+
+.plan-offerts .top-tabs .button a{
+  color: white;
+  text-decoration: none;
+}
+
+
 
 .bottom-tabs{
   border: 1px solid var(--grey);
@@ -277,10 +286,8 @@ h2{
 
 .bottom-tabs .button{
   justify-content: end;
-  align-items: center;
   width: 30%;
-  position: relative;
-  bottom: 90px;
+  margin-bottom: auto;
 }
 
   /* PARTNER */
