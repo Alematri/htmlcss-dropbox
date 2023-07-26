@@ -2,7 +2,6 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  text-decoration: none;
 }
 
 body{
@@ -21,6 +20,18 @@ body{
   --burgundi: #61082b;
   --yellow: #ffd830;
   --grey: #999999;
+}
+
+nav a{
+text-decoration: none;
+}
+
+.button a{
+text-decoration: none;
+}
+
+.start-trial{
+  text-decoration: none;
 }
 
 
@@ -261,7 +272,6 @@ h2{
 
 .plan-offerts .top-tabs .button a{
   color: white;
-  text-decoration: none;
 }
 
 
@@ -337,6 +347,10 @@ h2{
   width: 30%;
 }
 
+.businnes-tasks .cards{
+  margin-bottom: 150px;
+}
+
 .businnes-tasks img{
   width: 100%;
   height: auto;
@@ -347,4 +361,8 @@ h2{
   font-size: 1.4rem;
   font-weight: 800;
   margin-bottom: 30px;
+}
+
+.nomargin{
+  margin: 0px;
 }
