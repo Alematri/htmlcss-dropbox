@@ -32,6 +32,7 @@ text-decoration: none;
 
 .start-trial{
   text-decoration: none;
+  display: inline-block;
 }
 
 
@@ -365,4 +366,35 @@ h2{
 
 .nomargin{
   margin: 0px;
+}
+
+  /* TEAM-MEMBER */
+
+.team-member{
+  margin-top: 150px;
+}
+
+.left-squares, .center-content, .right-squares{
+  width: calc(100% / 3);
+}
+
+#designist{
+  background-color: var(--green);
+  width: 50%;
+}
+
+#arizona{
+  background-color: var(--burgundi);
+  width: 50%;
+
+}
+
+#florida{
+  background-color: var(--blue);
+  width: 50%;
+}
+
+#topps{
+  background-color: var(--red);
+  width: 50%;
 }
