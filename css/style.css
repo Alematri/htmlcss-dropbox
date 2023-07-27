@@ -498,3 +498,12 @@ footer .dropbox p:last-child{
   color: var(--grey);
   margin-bottom: 50px;
 }
+
+footer a{
+  text-decoration: none;
+  color: white;
+}
+
+footer .fa-caret-up{
+  cursor: pointer;
+}
